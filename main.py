@@ -39,7 +39,7 @@ with open('sensor_data1.csv','r')as csv_pile:
     num = input('6월은 1,7월은 2를 입력하시오 : ')
     while(True):
         if num=='1':
-            cho1=input('온도는 1,습도는 2를 입력하시오')
+            cho1=input('온도는 1,습도는 2를 입력하시오 : ')
             if cho1=='1':
                 print(round(result6t, 2))
             elif cho1=='2':
@@ -49,7 +49,7 @@ with open('sensor_data1.csv','r')as csv_pile:
                 continue
             break
         if num=='2':
-            cho1=input('온도는 1,습도는 2를 입력하시오')
+            cho1=input('온도는 1,습도는 2를 입력하시오 : ')
             if cho1=='1':
                 print(round(result7t, 2))
             elif cho1=='2':
@@ -60,6 +60,6 @@ with open('sensor_data1.csv','r')as csv_pile:
             break
         else:
             print('다시 입력하시오')
-            num = input('6월은 1,7월은 2를 입력하시오')
+            num = input('6월은 1,7월은 2를 입력하시오 : ')
             continue
         break
